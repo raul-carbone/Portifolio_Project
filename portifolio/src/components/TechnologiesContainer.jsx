@@ -3,7 +3,8 @@ import {
   DiCss3,
   DiJsBadge,
   DiNodejsSmall,
-  DiReact
+  DiReact,
+  DiAngularSimple
 } from 'react-icons/di'
 
 import '../styles/components/technologiescontainer.sass'
@@ -13,7 +14,8 @@ const technologies = [
   {id: "css", name: "CSS3", icon: <DiCss3 />, text: "Possui ótimo conhecimento na linguagem de marcação CSS." },
   {id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Possui ótimo conhecimento na linguagem de programação JavaScript." },
   {id: "node", name: "Node.js", icon: <DiNodejsSmall />, text: "Possui conhecimento aceitável no Node.js" },
-  {id: "react", name: "React", icon: <DiReact />, text: "Possui bom conhecimento na biblioteca JavaScript, React." },
+  {id: "react", name: "React", icon: <DiReact />, text: "Possui um conhecimento aceitável em ReactJS." },
+  {id: "angular", name: "Angular", icon: <DiAngularSimple />, text: "Possui um conhecimento aceitável em Angular." }
 ]
 
 
